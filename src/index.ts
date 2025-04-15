@@ -1,4 +1,8 @@
 /**
  * Some code reproducing a bug.
+ * 
+ * {@includeCode ./helloWorld.test.mts#example}
  */
-export const bug = 123;
+export function helloWorld() {
+  return 'Hello World';
+}
